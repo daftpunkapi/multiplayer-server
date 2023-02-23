@@ -19,7 +19,7 @@ const io = new Server(server, {
   },
 });
 server.listen(PORT, () => {
-  console.log("Server is Live 👽");
+  console.log("Server is Live 👽 at port ${PORT}");
 });
 
 // Initializing empty array for storing user details 
